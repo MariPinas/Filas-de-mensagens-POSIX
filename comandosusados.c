@@ -1,14 +1,13 @@
 /*******************************************************************************
 
-mqd_t: Então, mqd_t é apenas um tipo especial de variável que ajuda os programas
+mqd_t: é um tipo especial de variável que ajuda os programas
 a trabalharem com sistemas de comunicação usando filas de mensagens
 
 mq_open (Abrir Fila de Mensagens): Este comando é usado para criar ou abrir uma fila de mensagens, que é como um espaço
 onde os processos podem enviar mensagens uns aos outros.
 Pense nisso como a abertura de uma caixa de correio ou uma sala de bate-papo online
 para que diferentes partes de um programa possam se comunicar.
-Foi usado para abrir filas de mensagens em 
-diferentes partes do programa, no Processo C, Processo A e Processo B.
+Foi usado para abrir e criar filas de mensagens em diferentes partes do programa, no Processo C, Processo A e Processo B.
 
 mq_close (Fechar Fila de Mensagens): Este comando é usado para encerrar uma fila de mensagens
 após seu uso, o que significa que você não quer mais receber ou enviar mensagens por meio dessa fila.
